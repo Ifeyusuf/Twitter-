@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter</title>
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+
+
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="/images/1668356096412.png" type="image/x-icon">
+</head>
+<body class="body">
+    <!-- HEADER SECTION START HERE -->
+    <section>
+        <div class="section">
+            <div class="container ">
+                <div class="row ">
+                    <!-- COL-2 HEADER -->
+                    <div class="col-2 overflow-x border-r flex-div pc-only width">
+                        <a href="#" class="py-1"><img src="/images/1668356096412.png" class="logo"></a>
+                    </div>
+<!-- COL-6 HEADER -->
+                    <div class="col-6 overflow-x border-r width">
+                        <div class="row justify-between px-2 flex-div py-1">
+                          <div class="flex-div">
+                            <img src="/images/profile-twit.png" class="profile cursor">
+
+                            <h2 class="mobile-ms">Home</h2>
+                          </div>
+                            <button class="btn-none cursor btn-toggler"><img src="/images/star-twit.png" ></button>
+                        </div>
+                    </div>
+                    <!-- RIGHT HEADER -->
+                    <div class="col-4 py-1 flex-div overflow-x pc-only width">
+                        <div class="input-group flex-div ms-1">
+
+                            <img src="/images/search-twit.png" >
+
+                            <input type="text" placeholder="Search Twitter" class="searchbox">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- HEADER SECTION END HERE -->
+
+
+    <!-- MAIN SECTION START HERE -->
+
+    <section>
+        <div class="container ">
+            <div class="row">
+                <div class="col-2 border-r minus-m overflow  width links">
+
+                    <div class="row justify-between  flex-div py-1 mobile-only">
+                        <div class="flex-div">
+                          <img src="/images/profile-twit.png" class="profiles cursor">
+                          
+                        </div>
+                          <form action="">
+                            <button class="btn-none dots cursor btn-toggler profiles fs-2"><img src="/images/dot-twit.png" alt=""></button>
+
+                          </form>
+                      </div>
+                    
+                    <!-- SIDE-BAR SECTION -->
+                    <ul class=" py-1 overflow ">
+                        <li class="flex-div hover-li "><iconify-icon icon="material-symbols:home" width="25px"></iconify-icon>
+                            <a href="#" class=" fw-bold fs text-dark ms-1">Home</a></li>
+                            
+                        <li class="flex-div hover-li"><iconify-icon icon="bx:hash"  width="25px"></iconify-icon>
+                            <a href="#" class="text-dark  fs ms-1">Explore</a></li>
+
+                        <li class="flex-div hover-li"><iconify-icon icon="ph:bell-bold" width="25px"></iconify-icon>
+                            <a href="#" class="text-dark  fs ms-1" >Notifications</a></li>
+
+                        <li class="flex-div hover-li"><iconify-icon icon="mdi:envelope-outline"  width="25px"></iconify-icon>
+                            <a href="#" class="text-dark  fs ms-1">Messages</a></li>
+
+                        <li class="flex-div hover-li"><iconify-icon icon="material-symbols:bookmark-outline-rounded"  width="25px"></iconify-icon>
+                            <a href="#" class="text-dark  fs ms-1">Bookmarks</a></li>
+
+                        <li class="flex-div hover-li"><iconify-icon icon="material-symbols:featured-play-list-outline-rounded"  width="25px"></iconify-icon>
+                            <a href="#" class="text-dark  fs ms-1">Lists</a></li>
+                            
+                        <li class="flex-div hover-li"><iconify-icon icon="line-md:account" width="25px"></iconify-icon>
+                            <a href="#" class="text-dark   fs ms-1">Profile</a></li>
+
+                        <li class="flex-div hover-li"><iconify-icon icon="mingcute:more-3-line"  width="25px"></iconify-icon>
+                            <a href="#" class="text-dark  fs ms-1">More</a></li>
+
+                    </ul>
+                    <form action="">
+                        <button class=" pc-only sidebar-btn bg-blue text-white cursor box-shadow">Tweet</button>
+                    </form>
+                    
+                    <!-- BOTTOM SIDE-BAR POP UP -->
+
+                    <div class="linkk bg-white width">
+                        <div class="border-top w-15 mx-center linkk-mobile-only "></div>
+                       <h4 class="my-1 linkk-mobile-only">Accounts</h4>
+                       <div class="justify-between flex-div mt-2 mobile-mt">
+                        <div class="flex-div gap-10">
+                            <a href="#"><img src="/images/Yusfe pic.jpg" class="circle" width="50px"></a>
+                           <div class="text-p">
+                            <p><a href="#" class="text-dark"><small>
+                                YusfulTech</small></a></p>
+                            <p class="minus-5px">
+                                <a href="#" class="text-dark"><small>@Yusfe</small></a>
+                            </p>
+                           </div>
+                        </div>
+                        <a href="#"><img src="/images/mark-twit.png" class="minus-15px"></a>
+                       </div>
+                       <form action="" class="my-1 linkk-mobile-only">
+                        <button class="btn-control full-width bg-blue text-white"> <small>Create a new account</small></button> 
+                        
+                        <button class="btn-control full-width mt-1 bg-blue text-white"> <small>Add an existing account</small></button>
+                    </form>
+                    </div>
+                </div>
+
+                <!-- MAIN COL-6 -->
+
+                <div class="col-6 border-r minus-m overflow-x width">
+                   <div class="col border-bottom">
+                    <div class="flex-div px-2 gap-10">
+                        <img src="/images/profile-twit.png">
+
+                    
+                    <!-- TEXT-AREA SECTION -->
+                   <div class="text-area full-width d-flex">
+                    <textarea id="text-length" name="What's happening?" placeholder="What's happening?" minlength="0" class="full-width border-r text-area resize fs pad10 text-control text "></textarea>
+                    <!-- <div class="modal">
+                        <div class="modal-content">
+                            <p>Welcome to  Twitter</p>
+                        </div>
+                    </div> -->
+                   </div>
+
+                    </div>
+                    <!-- Script-js FOR LENGTH -->
+                    <small class="word-length float-r"><span></small>
+                        <!-- END HERE -->
+
+                    <div class="row justify-between px-2 my-1 mt-2">
+                        <ul class="flex-div cursor ms-2">
+
+                            <!-- IMAGE UPLOAD SECTION -->
+                            <li class="px-1">
+                                <label class="special-file">
+                                    <img src="/images/smile/img-icon-twit.png" class="cursor">
+
+                                    <input type="file"class="file" >
+                                </label>
+                            </li>
+                             <!-- IMAGE UPLOAD SECTION END -->
+
+                            <li class="px-1"><img src="/images/smile/gif-icon-twit.png" ></li>
+
+                            <li class="px-1"><img src="/images/smile/noname-icon-twit.png" ></li>
+
+                            <li class="px-1"><img src="/images/smile/smile-icon-twit.png" ></li>
+
+                            <li class="px-1"><img src="/images/smile/next-l-icon-twit.png"></li>
+
+                            <li class="px-1"><img src="/images/smile/location-icon-twit.png" ></li>
+                        </ul>
+                        <form action="#">
+                            <button class="bg-blue text-white btn-control">Tweet</button>
+                        </form>
+                    </div>
+                </div>
+                <!-- TWEETS  -->
+                <div class="border-bottom">
+                    <div class="flex-center py-1  fs-px">
+                        <p><a href="#" class="text-blue">Show 6 Tweets</a></p>
+                    </div>
+                </div>
+                <!-- POST HERE -->
+                <div class="border-bottom ">
+                    <div class=" py-1 justify-between px-2">
+                        <div class=" row">
+                            <div class="col">
+                                <img src="/images/profile-twit.png" >
+                            </div>
+                            <div class="full-width col-2">
+                                <p class="ms-1 fs-mobile"><a href="#" class="text-dark after"><strong>Akorede Rasheed, Adigun</strong></a> <span class="text-smoke fs-mobile">@AkotechOnline .27m </span></p>
+                                <p class="ms-1 overflow-x fs-mobile-c">Abeokuta men are the most loyal men out there, but we aren't ready for the conversation sha.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-1">
+                            <img src="/images/dot-twit.png" class="cursor">
+                        </div>
+                    </div>
+                    <div class="px-2">
+                        <div class="flex-evenly mb-1 cursor flex-div">
+                          <div class="col flex-div m-w">
+
+                            <!-- INCREASE LIKES BUTTON -->
+
+                            <button class="btn-count increase "> <img src="/images/1-twit.png" alt=""></button><small id="value" class="w-m"></small>
+                          </div>
+
+                          <!-- INCREASE LIKES BUTTON EN -->
+                          
+                            <img src="/images/2-twit.png" >
+
+                            
+                           <iconify-icon icon="mdi:cards-heart-outline" width="20px" class="love"></iconify-icon>
+
+                            <img src="/images/4-twit.png" alt="">
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECOND-POST START HERE -->
+                <div class="border-bottom ">
+                    <div class=" py-1 justify-between px-2">
+                        <div class=" row">
+                            <div class="col">
+                                <img src="/images/profile-twit.png" >
+                            </div>
+                            <div class="full-width col-2">
+                                <p class="ms-1 "><a href="#" class="text-dark after fs-mobile"><strong>Akorede Rasheed, Adigun</strong></a> <span class="text-smoke fs-mobile">@AkotechOnline .27m </span></p>
+                                <p class="ms-1 overflow-x fs-mobile-c">It is always a delight to share time with General Ibrahim Babangida. His counsel and understanding of our country is priceless as we work to recover Nigeria from years of economic and security decline.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-1">
+                            <img src="/images/dot-twit.png" class="cursor">
+                        </div>
+                    </div>
+                    <div class="flex-center">
+                        <img src="/images/politicts-twit.png" >
+                    </div>
+
+                    <div class="px-2">
+                        <div class="flex-evenly my-1 cursor flex-div">
+                          <div class="col flex-div">
+                            <!-- INCREASE LIKES BUTTON -->
+                            <button class="btn-counts increases btn-count"> <img src="/images/1-twit.png" alt=""></button><small id="values" class="w-m"></small>
+                          </div>
+                          <!-- INCREASE LIKES BUTTON EN -->
+                          
+                           <div class="flex-div">
+                            <button class="btn-counts increas btn-count"><img src="/images/2-twit.png" alt=""></button>
+                            <small id="show"></small>
+                           </div>
+
+                           <iconify-icon icon="mdi:cards-heart-outline" width="20px" class="love"></iconify-icon>
+
+                            <img src="/images/4-twit.png" alt="">
+                            
+                        </div>
+                    </div>
+                </div>
+                   </div>
+                   <!-- MAIN RIGHT SECTION START HERE -->
+                <div class="col-4 pc-only">
+                    <div class="bg-info mx-2 pad10 full-width border-radius">
+                        <h3>What's Happening</h3>
+                        <div class="row my-2">
+                            <div class="col-1">
+                                <p><a href="#" class="text-info text-smoke"><small>NBA . 1 hour ago</small></a></p>
+                                <p class="fw-bold"><small>Kings at Lakers</small></p>
+                            </div>
+                            <div class="col-1">
+                                <a href="#"><img src="/images/NBA-twit.png" class="float-r"></a>
+                            </div>
+                        </div>
+                        <div class="col my-1">
+                            <a href="#" class="text-dark"><p>#GratitudeMission</p></a>
+
+                            <a href="#" class="text-smoke"><p><small>Proud to honour veterans</small></p></a>
+
+                            <a href="#" class="text-smoke"><small>Promoted by Navy Federal Credit Union</small></a>
+                        </div>
+
+                        <!-- TREND TWEETS COUNTS SECTION -->
+                    <div class="row my-1 flex-div">
+                        <div class="col-1">
+                            <div class="col">
+                                <p><a href="#" class="text-smoke"><small>Trending</small></a></p>
+
+                            </div>
+                        </div>
+                        <div class="col-1">
+                            <button class="float-r btn-none flex-div cursor"><img src="/images/dot-right-twit.png" ></button>
+                        </div>
+                    </div>
+                    <!-- TRENDING TWEETS-->
+                   <div class="col minus-m-1">
+                    <p>Oshiomole</p>
+                    <p><small><a href="#" class="text-smoke">15.6k tweets</a></small></p>
+                   </div>
+
+                        <!-- TREND TWEETS COUNTS SECTION -->
+                    <div class="row my-1 flex-div">
+                        <div class="col-1">
+                            <div class="col">
+                                <p><a href="#" class="text-smoke"><small>Sports . Trending</small></a></p>
+
+                            </div>
+                        </div>
+                        <div class="col-1">
+                            <button class="float-r btn-none flex-div cursor"><img src="/images/dot-right-twit.png" ></button>
+                        </div>
+                    </div>
+                    <!-- TRENDING TWEETS -->
+                   <div class="col minus-m-1">
+                    <p>Newcastle</p>
+                    <p><small><a href="#" class="text-smoke">23.6k tweets</a></small></p>
+                   </div>
+                   
+                   <div class="row my-2">
+                    <div class="col-6">
+                        <p><a href="#" class="text-info text-smoke"><small>US elections . LIVE</small></a></p>
+                        <p class="fw-bold"><small>Califonia: Election News and updates</small></p>
+                    </div>
+                    <div class="col-2">
+                        <a href="#"><img src="/images/CA-twit.png" class="float-r"></a>
+                    </div>
+                </div>
+                <!-- MORE LINKS -->
+                <a href="#" class="text-blue">Show more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAIN SECTION END HERE -->
+
+    <script src="/script.js"></script>
+</body>
+</html>
